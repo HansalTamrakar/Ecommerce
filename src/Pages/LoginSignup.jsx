@@ -12,12 +12,12 @@ function LoginSignup() {
   const auth = getAuth();
 
   const SignUp = () => {
-    // ValidateEmail(name?.current?.value);
-    // ValidateName(email?.current?.value);
-    // ValidatePassword(password?.current?.value);
-    // console.log(name?.current?.value);
-    // console.log(password?.current?.value);
-    // console.log(email?.current?.value);
+    ValidateEmail(name?.current?.value);
+    ValidateName(email?.current?.value);
+    ValidatePassword(password?.current?.value);
+    console.log(name?.current?.value);
+    console.log(password?.current?.value);
+    console.log(email?.current?.value);
 
     createUserWithEmailAndPassword(
       auth,
